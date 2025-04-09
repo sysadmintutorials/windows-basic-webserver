@@ -7,7 +7,7 @@ The webpage will display the hostname, local IP address as well as "I am a basic
 
 Run the following command within Powershell:
 
-- Invoke-WebRequest -Uri "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/windows_webserver_setup.ps1" -OutFile "$env:TEMP\web.ps1"
+- Invoke-WebRequest -Uri "https://raw.githubusercontent.com/sysadmintutorials/windows-basic-webserver/refs/heads/main/windows-basic-webserver.ps1" -OutFile "$env:TEMP\web.ps1"
 - powershell -ExecutionPolicy Bypass -File "$env:TEMP\web.ps1"
 
 ### Note
